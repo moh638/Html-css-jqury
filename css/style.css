@@ -91,13 +91,13 @@ body{
 	float: right;
 	margin-right:5%;
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 7%;
 
 }
 .about .about_us h2 , .service .service_us h2{
 	margin: 0;
 	color: #ffff73;
-	padding-bottom: 7%;
+	padding-bottom: 0%;
 }
 
 .about .about_us p{
@@ -127,11 +127,11 @@ body{
 	float: left;
 	margin-left:5%;
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 7%;
 }
 
 .service .service_us h2{
-	padding-bottom: 2%;
+	padding-bottom: 0;
 }
 
 .service .service_us p{
@@ -151,7 +151,8 @@ body{
 .testimonials h2{
 	margin: 0;
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 7%;
+	
 }
 
 .testimonials .test{
@@ -192,13 +193,13 @@ body{
 	float: right;
 	margin-right:5%;
 	text-align: center;
-	padding-top: 2%;
+	padding-top: 5%;
 }
 .contact .contact_us h2{
 	margin: 0;
 	color: #ffff73;
 	padding-top: 10%;
-	padding-bottom: 15%;
+	padding-bottom: 5%;
 }
 
 .contact .contact_us form {
@@ -236,5 +237,9 @@ body{
 	height:50px;
 	font-size: 20px;
 	border-radius: 10px;
+    
+}
+.contact .contact_us form input[type="submit"]:hover{
+	color: #fff;
     
 }
